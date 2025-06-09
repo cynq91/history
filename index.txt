@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Historia</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contenedor-externo {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .lado {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin: 10px;
+    }
+
+    .gif-lado {
+      width: 100px;
+      margin: 12px 0;
+    }
+
+    .contenedor-principal {
+      max-width: 800px;
+      background-color: #897b7b;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #33cc99;
+      text-align: center;
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .foto-esquina {
+      width: 250px;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      border: 3px solid #33cc99;
+    }
+
+    .clear {
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contenedor-externo">
+    <div class="lado">
+      <img src="pulgar.gif" class="gif-lado">
+      <img src="kidcool.gif" class="gif-lado">
+      <img src="dance.gif" class="gif-lado">
+    </div>
+
+    <div class="contenedor-principal">
+      <h1>Mi Historia</h1>
+
+      <img src="ethan.jpeg" alt="Foto personal" class="foto-esquina">
+
+      <p>En esta página les hablaré sobre mí y cómo llegué hasta la preparatoria. Primero, comencemos por cómo era antes del kínder. Era un bebé calmado y no hacía berrinches, solo cuando tenía hambre o sueño. Mi mamá decía que era muy tranquilo a esa edad.</p>
+      <p>Cuando crecí, me volví un poco más activo. A veces, cuando dormía, me caía de la cama. Me gustaba hacer muchas cosas como jugar con mis juguetes y con mis primos.</p>
+      <p>Cuando entré al kínder, tenía entre 5 y 6 años. Ahí tuve un problema para hacer amigos, ya que siempre estaba solo en los recreos. Recuerdo que tampoco les caía bien a mis compañeros y, a veces, ellos hacían que me mandaran con la directora. En ese entonces no entendía muy bien por qué.</p>
+      <p>En la etapa de primaria ya tenía algunos amigos, pero a veces me hacían jugar cosas como "chocolate", y yo no sabía qué era eso. Jugaba inocentemente con ellos. Tuve una novia, pero salió mal, ya que no era buena idea tener una relación en primaria. En la despedida de la primaria nos pidieron comprar trajes color vino y tuvimos un baile con las mamás. En ese momento me gustaban la geografía y las matemáticas porque era bueno en esas materias y mi maestra sabía enseñarlas muy bien.</p>
+      <p>La secundaria fue distinta, ya que ahí volví a tener otro grupo de amigos y una pareja. El primer año de secundaria fue fácil; nos presentamos todos y listo. Conocí a una maestra de química que enseñaba muy bien y logró que me gustara la química.</p>
+      <p>En segundo año fue algo raro, ya que una maestra quiso tomar el papel de orientadora porque el maestro que era nuestro orientador no quería continuar. Esa maestra no me agradaba, ya que un día me regañó sin motivo, solo por preguntarle acerca de los días que falté.</p>
+      <p>En tercer grado no pude asistir ni hacer mi examen de ingreso a la preparatoria, ya que me enfermé de COVID. Durante ese tiempo estuve encerrado en mi habitación y fue un año muy pesado, porque me sentía solo, sin nadie con quien hablar, solo a veces con mi mamá, pero no podía quedarse mucho tiempo. Un día, mi tía me sacó para acompañar a mi bisabuelo a hacer unas cosas, y cuando me recuperé, me quedó como consecuencia que mis defensas estaban bajas, lo que hacía que me enfermara con frecuencia.</p>
+      <p>Eso fue un problema en la preparatoria, ya que muchas veces me iba a extraordinarios porque me enfermaba durante una semana. Me llevaron a hacerme estudios para ver si tenía otra cosa, pero salí bien. Me dieron medicinas y ahora mis defensas están normales.</p>
+      <p>Este último año espero pasar todas mis materias para estudiar gastronomía y ya no enfermarme más, porque sé que soy capaz de seguir adelante con todo.</p>
+
+      <div class="clear"></div>
+    </div>
+
+    <div class="lado">
+      <img src="boom.gif" class="gif-lado">
+      <img src="chicking.gif" class="gif-lado">
+      <img src="chips.gif" class="gif-lado">
+    </div>
+  </div>
+
+</body>
+</html>
